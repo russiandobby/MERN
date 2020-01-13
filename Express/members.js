@@ -1,0 +1,33 @@
+const members = [
+    {
+        id:1,
+        name:'John',
+        email:'john@gmail.com',
+        status:"active"
+    },
+    {
+        id:2,
+        name:'Bob',
+        email:'Bob@gmail.com',
+        status:"active"
+    },
+    {
+        id:3,
+        name:'rox',
+        email:'rox@gmail.com',
+        status:"active"
+    },
+    {
+        id:4,
+        name:'Zokl',
+        email:'Zokl@gmail.com',
+        status:"active"
+    },
+    {
+        id:5,
+        name:'samantha',
+        email:'samantha@gmail.com',
+        status:"active"
+    }
+];
+module.exports = members;
