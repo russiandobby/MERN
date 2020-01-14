@@ -32,7 +32,7 @@ app.get('/',(req,res)=>res.render('index',{
 
 
 
-// Set static folder
+// Set static folders
 app.use(express.static(path.join(__dirname,'public')));
 // Members Api Routes
 app.use('/api/members',require('./routes/api/members'));
